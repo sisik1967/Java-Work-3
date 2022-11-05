@@ -161,7 +161,6 @@ public class Main {
     //Kullanıcıya  klavyeden bir sayı girmesini isteyeceğiz
     //Kullancının girdiği sayı ile bilgisayarın rastgele ürettiği sayı ile kıyaslacağız.
     //Kullanıcı doğru bilene kadar uygulama çalışmaya devam edicek doğru sonuncun ardından uygulama sonlandırılacak.
-    //Kıyaslama sonucunda tahmin ettiğin sayığının aşağısınd
     public static void PredictNum() {
         double dnumber = Math.round(Math.random()*10);
         int number =(int)dnumber;
@@ -409,7 +408,7 @@ public class Main {
     //*************** O D D - E V E N   N U M B E R *******************//
     //*****************************************************************//
     //Klavyeden int tipinden bir sayı girilmesini sağlayınız.
-    //İf –else yapısını kullanarak bu sayının tek yada çift sayı olmasını durumunu denetleyiniz ve sonucu ekrana yazdırınız..
+    //İf –else yapısını kullanarak bu sayının tek yada çift sayı olmasını durumunu denetleyiniz ve sonucu ekrana yazdırınız.
     public static void OddEvenExer() {
         //Read  numbers.
         System.out.println("Please enter an intger number! ");
